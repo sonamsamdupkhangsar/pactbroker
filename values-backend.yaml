@@ -78,5 +78,5 @@ postgres:
 envs:
   - name: PACT_BROKER_DATABASE_HOST
     value: pactbroker-minimal-cluster
-  - name: allow_public_read
+  - name: PACT_BROKER_ALLOW_PUBLIC_READ
     value: true  
