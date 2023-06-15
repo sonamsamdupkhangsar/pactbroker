@@ -38,4 +38,4 @@ jobs:
             --set "secretenvs[0].name=PACT_BROKER_BASIC_AUTH_USERNAME" --set "secretenvs[0].value=${{ secrets.PACT_BROKER_BASIC_AUTH_USERNAME }}" \
             --set "secretenvs[1].name=PACT_BROKER_BASIC_AUTH_PASSWORD" --set "secretenvs[1].value=${{ secrets.PACT_BROKER_BASIC_AUTH_PASSWORD }}" \
              $PROJECT_NAME \
-            sonam/mychart -f values-backend.yaml --version 0.1.14 --namespace=backend
+            sonam/mychart -f values-backend.yaml --version 0.1.26 --namespace=backend
